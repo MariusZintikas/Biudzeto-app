@@ -29,7 +29,9 @@ return (
                 Ištrinti
               </button>
             </td>
-
+            <a href={"/costs/editcost/" + cost.id}>
+                <i id="piestukas" class="fa fa-pencil fa-fw"></i>
+              </a>
             <td>
               
               

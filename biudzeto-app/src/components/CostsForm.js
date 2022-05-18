@@ -1,27 +1,29 @@
 import { useState } from "react";
-import { useHistory } from 'react-router-dom';
+//import { useHistory } from 'react-router-dom';
 
 function CostsForm() {
   const [date, setDate] = useState("showTodayDate()");
   const [suma, setSuma] = useState("");
   const [pavadinimas, setPavadinimas] = useState("");
   const [kategorija, setKategorija] = useState("");
-  const history = useHistory();
+  //const history = useHistory();
+
+  function showTodayDate() {
+    let date = new Date();
+    let today = date.toISOString().slice(0, 10);
+    return today;
+  }
+
+  function resetForm() {
+    setSuma("");
+    setPavadinimas("");
+  }
 
   const handleSubmit = (e) => {
     e.preventDefault();
     const cost = { date, suma, pavadinimas, kategorija };
 
-    function showTodayDate() {
-      let date = new Date();
-      let today = date.toISOString().slice(0, 10);
-      return today;
-    }
-  
-    function resetForm() {
-      setSuma("");
-      setPavadinimas("");
-    }
+   
 
     fetch('http://localhost:8000/costs', {
         method: 'POST',
@@ -33,8 +35,8 @@ function CostsForm() {
 
         // history.go(-1);
        // history.push('/');
-    })
-}
+    });
+};
 
   return (
     <div className="Costs">
@@ -58,7 +60,7 @@ function CostsForm() {
         <label htmlFor="pavadinimas"></label>
           <input className="input" 
           type="text"
-          id="pavadinimas" placeholder="Pavadinimas"
+          id="pavadinimas" value={pavadinimas} placeholder="Pavadinimas"
             onChange={(e) => {
               setPavadinimas(e.target.value);
             }}
@@ -73,7 +75,7 @@ function CostsForm() {
             <option value="sveikata">Sveikata</option>
             <option value="sportas">Sportas</option>
             <option value="keliones">Kelionės</option>
-            <option value="keliones">Kita</option>
+            <option value="kita">Kita</option>
           </select>
         </div>
         <div><input type="submit" className="btn" value="Išsaugoti"></input>

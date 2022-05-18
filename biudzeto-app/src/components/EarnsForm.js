@@ -66,6 +66,7 @@ function EarnsForm() {
             className="input"
             type="text"
             id="pavadinimas"
+            value={pavadinimas}
             placeholder="Pavadinimas"
             onChange={(e) => {
               setPavadinimas(e.target.value);
