@@ -268,3 +268,35 @@ li a {
   padding: 16px;
   text-decoration: none;
 }
+.edit label {
+  text-align: left;
+  display: block;
+}
+
+.edit h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+
+.edit input,
+.edit select 
+{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.edit button
+ {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+}

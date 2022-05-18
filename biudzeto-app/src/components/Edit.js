@@ -32,7 +32,8 @@ function Edit() {
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(editedEarn)
         }).then(() => {
-            history.push('/');
+            alert("Sėkmingai redagavote");
+            //history.push('/');
         })
     }
 
@@ -63,6 +64,10 @@ function Edit() {
                 />
 
                 <button onClick={handleSave}>Redaguoti</button>
+                
+                <a className="btn" href="/EarnList.js">
+            Sąrašas
+          </a>
             </form>)}
         </div>
     );
