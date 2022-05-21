@@ -1,4 +1,5 @@
 import React from "react";
+import 'bootstrap/dist/css/bootstrap.css';
 import "./App.css";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -14,6 +15,7 @@ import EarnList from "./components/EarnList";
 import CostList from "./components/CostList";
 import Edit from "./components/Edit";
 import CostsForm from "./components/CostsForm";
+import Vartotojai from "./components/Vartotojai";
 
 function App() {
   return (
@@ -39,8 +41,9 @@ function App() {
               <EarnsForm />
               <CostsForm/>
             </Route>
-
-
+            <Route exact path="/Vartotojai.js">
+            <Vartotojai/>
+            </Route>
           {/* <Route exact path="/FrontPage">
               
               <FrontPage />
@@ -57,6 +60,7 @@ function App() {
             </Route>
         </Switch>
       </div>
+      {/* <Vartotojai/> */}
       </div>
     </Router>
   );

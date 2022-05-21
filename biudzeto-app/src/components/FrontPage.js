@@ -4,7 +4,7 @@ import Chart from "./Chart";
 
 function FrontPage() {
     return (
-    <div className="frontpage">
+    <div className="frontpage " >
     <div>
     <EarnsForm/>
     <CostsForm/>
