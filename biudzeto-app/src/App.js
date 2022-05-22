@@ -14,6 +14,7 @@ import EarnList from "./components/EarnList";
 import CostList from "./components/CostList";
 import Edit from "./components/Edit";
 import CostsForm from "./components/CostsForm";
+import EditCost from "./components/EditCost";
 
 function App() {
   return (
@@ -54,6 +55,9 @@ function App() {
             </Route>
             <Route path="/earns/edit/:id">
               <Edit />
+            </Route>
+            <Route path="/costs/editcost/:id">
+              <EditCost />
             </Route>
         </Switch>
       </div>

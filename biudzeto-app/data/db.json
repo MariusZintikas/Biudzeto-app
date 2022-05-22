@@ -77,12 +77,18 @@
       "suma": "1.55",
       "pavadinimas": "",
       "id": 23
+    },
+    {
+      "date": "2022-05-22",
+      "suma": "123",
+      "pavadinimas": "Papildymas",
+      "id": 24
     }
   ],
   "costs": [
     {
       "date": "2022-04-27",
-      "suma": "500",
+      "suma": "501",
       "pavadinimas": "maxima",
       "kategorija": "gerimai",
       "id": 1
@@ -128,6 +134,13 @@
       "pavadinimas": "turkija",
       "kategorija": "keliones",
       "id": 7
+    },
+    {
+      "date": "2022-05-22",
+      "suma": "125",
+      "pavadinimas": "neste",
+      "kategorija": "transportas",
+      "id": 8
     }
   ]
 }
