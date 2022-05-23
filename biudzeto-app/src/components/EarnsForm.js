@@ -54,7 +54,7 @@ function EarnsForm() {
             }}
           />
            <label htmlFor="suma"></label>         
-          <input className="input" type="number" min="0"
+          <input className="input" type="number" min="0" max="1000000"
             step="0.01" value={suma}
             placeholder="Įveskite sumą"
             required onChange={(e) => {
