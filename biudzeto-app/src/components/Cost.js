@@ -10,7 +10,8 @@ function Cost({cost, index}) {
         fetch('http://localhost:8000/costs/' + cost.id, {
             method: 'DELETE',
         })
-            .then(res => res.json())       
+            .then(res => res.json()) 
+            alert('Sėkmingai ištrynėte');         
     }
 
     
