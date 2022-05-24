@@ -8,7 +8,8 @@ function Earn({earn, index}) {
         fetch('http://localhost:8000/earns/' + earn.id, {
             method: 'DELETE',
         })
-            .then(res => res.json())       
+            .then(res => res.json())  
+            alert('Sėkmingai ištrynėte');     
     }
 
 return (
