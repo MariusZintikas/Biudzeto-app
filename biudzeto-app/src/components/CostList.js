@@ -8,11 +8,17 @@ function CostList() {
   const [costs, setCosts] = useState([]);
   const [fCosts, setFCosts] = useState(null);
   const [filterData, setFilterData] = useState(null);
- // const [pavadinimas, setPavadinimas] = useState("");
+  const [sumFCosts, setSumFCosts] = useState();
+
+  const [filteredCost, setFilteredCost] = useState("");
+  const [filteredCostSize, setFilteredCostSize] = useState("");
+  const [filteredCostsSum, setFilteredCostsSum] = useState("");
+
+  const [updated, setUpdated] = useState(false);
 
   const filterCosts = (e) => {
     e.preventDefault();
-    let filteredCosts = costs.filter(cost => cost.pavadinimas===filterData);
+    let filteredCosts = costs.filter(cost => cost.kategorija===filterData);
     setFCosts(filteredCosts);
   }
 
@@ -20,32 +26,47 @@ function CostList() {
     e.preventDefault();
     setFCosts(null);
   }
-  // const resetForm = (e) => {
-  //   e.preventDefault();
-       
-  //   setPavadinimas("");
-  // }
-
+  
   useEffect(() => {
     fetch("http://localhost:8000/costs")
       .then((res) => res.json())
       .then((data) => setCosts(data));
-  }, []);
+  }, [updated]);
+
+  function sumCosts() {
+    let costsSum = 0;
+    (fCosts ? fCosts : costs).forEach((cost) => {
+      costsSum += Number(cost.suma);
+    });
+    setFilteredCostsSum(costsSum)
+  }
+
+  useEffect(()=>{
+    sumCosts()
+  }, [costs, fCosts])
+
   return (
     <>
     <form onSubmit={filterCosts} onReset={clearFilter}>
       <input
             className="input"
             type="text"
-            id="pavadinimas"
-            // value={pavadinimas}
-            placeholder="Pavadinimas"
+            id="kategorija"
+            
+            
             onChange={(e) => {
               setFilterData(e.target.value);
             }}
           />
           <input type="submit" className="btn" value="Filtruoti"></input>
-          <input type="reset" className="btn" value="Valyti"></input>
+          <input type="reset" className="btn" value="Nuimti filtrą"></input>
+          <div>
+          <h3 className="isfiltruota">Iš viso išfiltruota suma:</h3>
+          <h3>{filteredCostsSum}</h3>
+          
+        </div>
+
+
       </form>
     <h3>Išlaidų sąrašas</h3>
       <div className="col-md-8">
@@ -63,7 +84,8 @@ function CostList() {
       <tbody>
         {
             (fCosts?fCosts:costs).map((cost, index) => {
-                return <Cost key={cost.id} cost={cost} index={index} />;
+                return (<Cost key={cost.id} cost={cost} index={index} updated={updated}
+                setUpdated={setUpdated} />);
        
         
         })}
