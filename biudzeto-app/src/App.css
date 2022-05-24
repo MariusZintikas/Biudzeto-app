@@ -112,6 +112,9 @@
   padding: 10px;
   text-decoration: none;
   }
+  .isfiltruota {
+    color: #be73ed;
+  }
   .content {
     /* max-width: 600px; */
     margin: 40px auto;
