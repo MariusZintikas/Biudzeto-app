@@ -17,6 +17,7 @@ import Edit from "./components/Edit";
 import CostsForm from "./components/CostsForm";
 //import Vartotojai from "./components/Vartotojai";
 import EditCost from "./components/EditCost";
+import Chart from "./components/Chart";
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
           <Route exact path="/EarnsForm.js">
               <EarnsForm />
               <CostsForm/>
+              {/* <Chart/> */}
             </Route>
             {/* <Route exact path="/Vartotojai.js">
             <Vartotojai/>
