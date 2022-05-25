@@ -2,7 +2,7 @@ import { useState } from "react";
 //import { useHistory } from 'react-router-dom';
 
 function CostsForm() {
-  const [date, setDate] = useState("showTodayDate()");
+  const [date, setDate] = useState(showTodayDate());
   const [suma, setSuma] = useState("");
   const [pavadinimas, setPavadinimas] = useState("");
   const [kategorija, setKategorija] = useState("");
