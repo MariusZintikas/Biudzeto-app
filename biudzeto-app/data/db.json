@@ -134,6 +134,13 @@
       "pavadinimas": "turkija",
       "kategorija": "keliones",
       "id": 7
+    },
+    {
+      "date": "2022-05-26",
+      "suma": "199",
+      "pavadinimas": "kelione",
+      "kategorija": "keliones",
+      "id": 8
     }
   ]
 }

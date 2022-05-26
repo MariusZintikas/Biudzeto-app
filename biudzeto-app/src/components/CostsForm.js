@@ -79,7 +79,7 @@ function CostsForm() {
           </select>
         </div>
         <div><input type="submit" className="btn" value="Išsaugoti"></input>
-        <a className="btn" href="/CostList.js" >Sąrašas</a></div>
+        <a className="btn" href="/CostList.js">Sąrašas</a></div>
       </form>
       
       </div>

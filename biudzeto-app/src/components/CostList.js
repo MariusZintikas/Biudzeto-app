@@ -50,6 +50,7 @@ function CostList() {
     <form onSubmit={filterCosts} onReset={clearFilter}>
       <input
             className="input"
+            placeholder="Įveskite kategoriją"
             type="text"
             id="kategorija"
             
@@ -68,16 +69,18 @@ function CostList() {
 
 
       </form>
-    <h3>Išlaidų sąrašas</h3>
+      <br></br>
+    <h3 className="antraste">Išlaidų sąrašas</h3>
+    <br></br>
       <div className="col-md-8">
         <table className="table table-bordered table-striped">
           <thead>
             <tr>
               <th width="10%">Eil. Nr.</th>
-              <th width="35%">Gavimo data</th>
-              <th width="20%">Suma</th>
-              <th width="35%">Pavadinimas</th>
-              <th width="35%">Kategorija</th>
+              <th width="20%">Gavimo data</th>
+              <th width="10%">Suma</th>
+              <th width="30%">Pavadinimas</th>
+              <th width="30%">Kategorija</th>
             </tr>
           </thead>
     
