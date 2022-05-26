@@ -28,7 +28,7 @@ function EarnList() {
     }, []);
     return (
       <>
-      <form onSubmit={filterEarns} onReset={clearFilter}>
+      {/* <form onSubmit={filterEarns} onReset={clearFilter}>
       <input
             className="input"
             type="text"
@@ -41,8 +41,9 @@ function EarnList() {
           />
           <input type="submit" className="btn" value="Filtruoti"></input>
           <input type="reset" className="btn" value="Valyti"></input>
-      </form>
-      <h2>Pajamų sąrašas</h2>
+      </form> */}
+      <h3 className="antraste">Pajamų sąrašas</h3>
+      <br></br>
       <div className="col-md-8">
       
       <table className="table table-bordered table-striped">

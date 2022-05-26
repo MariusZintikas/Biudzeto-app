@@ -113,6 +113,8 @@ function RegistrationForm() {
           </button>
         </form>
       </div>
+      <br></br>
+      <br />
       {/* <Footer /> */}
     </div>
   );

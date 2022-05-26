@@ -6,8 +6,8 @@ function Header() {
             {/* <a href='../'><img src="/images/SekuLogo.png" alt="" /></a> */}
             <Link to="/"><img src="/images/SekuLogo.png" alt="Home" /></Link>
             <div></div>
-            <div>
-            <button className='prisijungti'><a href='../LoginForm'>PRISIJUNGTI</a></button></div>
+            {/* <div>
+            <button className='prisijungti'><a href='../LoginForm'>PRISIJUNGTI</a></button></div> */}
             
             <div><button className='registruotis'><a href='../RegistrationForm'>REGISTRUOTIS</a></button>
             {/* <a className='a1' href="/"> PRISIJUNGTI </a>
