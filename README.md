@@ -1,69 +1,65 @@
+# LT
 # Biudzeto-app
-# Getting Started with Biudzeto App
+# Pradedant su Biudzeto App'su
 
-This project was bootstrapped with [Create React App](https://github.com/MariusZintikas/Biudzeto-app/).
+Šis projektas sudarytas su [Create React App](https://github.com/MariusZintikas/Biudzeto-app/).
 
-## Available Scripts
+## Atsisiuntus repozitoriją reikalingi paleisties Scriptai
 
-In the project directory, you can run:
+Projekto kataloge galite paleisti šias komandas:
+
+### `npm instal` arba `npm i` 
+
+Terminale paleidžiame šį scriptą jei projektas pirma karta atidaromas kompiuteryje.
+Scriptas įrašo "Node" modulius reikalingus projekto paleidimui.
+
+### `npm install -g json-server`
+
+Jei tam tikri projekto duomenys nėra pasiekiami arba nėra atvaizduojami, įrašome JSON serverį.
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Tai suvedus į terminalo langą. Paleidžia projektą kūrimo režimu.\
+Atidarome [http://localhost:3000](http://localhost:3000) kad atvaizduotume projekta naršyklėje.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Projekto langas automatiškai atsnaujins darant pakeitimus.
 
-### `npm test`
+### `npx json-server --watch data/db.json --port 8000`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://github.com/MariusZintikas/Biudzeto-app/) for more information.
+Atidarius nauja teminalo langa ir suvedus šia komanda, bus atvaizduojami JSON faile esantys duomenys. 
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Megaukitės! :)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# ENG
+# Biudzeto-app
+# Getting Started with Biudzeto App
 
-See the section about [deployment](https://github.com/MariusZintikas/Biudzeto-app/) for more information.
+This project was bootstrapped with [Create React App] (https://github.com/MariusZintikas/Biudzeto-app/).
 
-### `npm run eject`
+## After downloading the repository, is required to run these scripts
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+You can run the following commands in the project directory:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### `npm install` or` npm i`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+In terminal write this script if project is for the first time on your computer.\
+The script installs the Node modules needed to run the project.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### `npm install -g json-server`
 
-## Learn More
+If certain project data is not available or not displayed, we install JSON server.
 
-You can learn more in the [Biudzeto App documentation](https://github.com/MariusZintikas/Biudzeto-app/).
+### `npm start`
 
-### Code Splitting
+This command entered in the terminal window. Starts the project in development mode. \
+Open [http: // localhost: 3000] (http: // localhost: 3000) to display project in the browser.
 
-This section has moved here: [https://](https://github.com/MariusZintikas/Biudzeto-app/)
+The project window will refresh automaticly as you make changes.
 
-### Analyzing the Bundle Size
+### `npx json-server --watch data / db.json --port 8000`
 
-This section has moved here: [https://docs/analyzing-the-bundle-size](https://github.com/MariusZintikas/Biudzeto-app/)
+When you open a new terminal window and enter this command, the data of the JSON file will be displayed.
 
-### Making a Progressive Web App
 
-This section has moved here: [https://docs/making-a-progressive-web-app](https://github.com/MariusZintikas/Biudzeto-app/)
-
-### Advanced Configuration
-
-This section has moved here: [https://docs/advanced-configuration](https://github.com/MariusZintikas/Biudzeto-app/)
-
-### Deployment
-
-This section has moved here: [https://app/docs/deployment](https://github.com/MariusZintikas/Biudzeto-app/)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://app/docs/troubleshooting#npm-run-build-fails-to-minify](https://github.com/MariusZintikas/Biudzeto-app/)
+Enjoy! :)
