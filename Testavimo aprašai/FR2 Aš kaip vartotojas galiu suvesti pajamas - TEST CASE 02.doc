@@ -1,0 +1,566 @@
+Date: Fri, 27 May 2022 13:22:09 +0000 (UTC)
+Message-ID: <1776170209.31.1653657729086@34e5446cfe22>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_30_564027161.1653657729085"
+
+------=_Part_30_564027161.1653657729085
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>FR2 A=C5=A1 kaip vartotojas galiu suvesti pajamas - TEST CASE 02=
+</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>FR2 A=C5=A1 kaip vartotojas galiu suvesti pajamas - TEST CASE 02</h=
+1>
+    <div class=3D"Section1">
+        <div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"3db173b9-d3c5-4a80-a230-42d=
+b8ededae5" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 170.0px;">
+<col style=3D"width: 170.0px;">
+<col style=3D"width: 170.0px;">
+<col style=3D"width: 170.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p style=3D"text-align: center;"><strong>Apra=C5=
+=A1ymas</strong></p></th>
+<th class=3D"confluenceTh"><p style=3D"text-align: center;"><strong>Testavi=
+mo numeris</strong></p></th>
+<th class=3D"confluenceTh"><p style=3D"text-align: center;"><strong>Autoriu=
+s</strong></p></th>
+<th class=3D"confluenceTh"><p style=3D"text-align: center;"><strong>Prad=C5=
+=BEia/Pabaiga</strong></p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<ol>
+<li><p>Suvesti pajamas: - nurodant sum=C4=85, dat=C4=85, pavadinim=C4=85 (p=
+vz.: Alga, papildomi darbai, dovana ir t.t.).</p></li>
+</ol><p>AC:</p>
+<ol>
+<li><p>Vartotojas gali =C4=AFvesti sveik=C4=85j=C4=AF skai=C4=8Di=C5=B3 su =
+dviem skai=C4=8Diais po kablelio.</p></li>
+<li><p>Vartotojas gali pasirinkti dat=C4=85 i=C5=A1 kalendoriaus</p></li>
+<li><p>Vartotojas Isira=C5=A1o pajam=C5=B3 pavadinim=C4=85 (ma=C5=BEosiom r=
+aid=C4=97m, be lietuvybi=C5=B3)</p></li>
+</ol></td>
+<td class=3D"confluenceTd"><p>00002</p></td>
+<td class=3D"confluenceTd"><p>Jolanta/Erikas</p></td>
+<td class=3D"confluenceTd"><p>2022.05.16 21.00</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#b3bac5" class=3D"confluenceTd"><p></p></td>
+<td data-highlight-colour=3D"#b3bac5" class=3D"confluenceTd"><p></p></td>
+<td data-highlight-colour=3D"#b3bac5" class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-layout=3D"full-width" data-local-id=3D"2403c00f-8ea9-4b26-9f97-=
+32a4a47a9104" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 48.0px;">
+<col style=3D"width: 171.0px;">
+<col style=3D"width: 195.0px;">
+<col style=3D"width: 236.0px;">
+<col style=3D"width: 250.0px;">
+<col style=3D"width: 180.0px;">
+<col style=3D"width: 180.0px;">
+<col style=3D"width: 180.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p style=3D"text-align: center;"><strong>Nr</str=
+ong></p></th>
+<th class=3D"confluenceTh"><p style=3D"text-align: center;"><strong>Veiksma=
+s</strong></p></th>
+<th class=3D"confluenceTh"><p style=3D"text-align: center;"><strong>=C4=AEv=
+estis</strong></p></th>
+<th class=3D"confluenceTh"><p style=3D"text-align: center;"><strong>Tik=C4=
+=97tinas rezultatas</strong></p></th>
+<th class=3D"confluenceTh"><p style=3D"text-align: center;"><strong>Gautas =
+rezultatas</strong></p></th>
+<th class=3D"confluenceTh"><p style=3D"text-align: center;"><strong>Program=
+os</strong></p></th>
+<th class=3D"confluenceTh"><p style=3D"text-align: center;"><strong>Rezulta=
+tas</strong></p></th>
+<th class=3D"confluenceTh"><p style=3D"text-align: center;"><strong>Komenta=
+ras</strong></p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>1</p></td>
+<td class=3D"confluenceTd"><p>Suvesti pajamas</p></td>
+<td class=3D"confluenceTd"><p>-</p></td>
+<td class=3D"confluenceTd"><p>Klaidu nerasta</p></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>Google Chrome Version 102.0.5005.61</p></td>
+<td class=3D"confluenceTd"><p><strong><span style=3D"color: rgb(54,179,126)=
+;">PASS </span></strong>/ <strong><span style=3D"color: rgb(255,86,48);">FA=
+IL</span></strong>/ <strong><span style=3D"color: rgb(76,154,255);">IMPROVE=
+MENT</span></strong></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>2</p></td>
+<td class=3D"confluenceTd"><p>Prisijungiam prie vartotojo</p></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>sekmingai pavyko prisijungti</p></td>
+<td class=3D"confluenceTd"><p>prisijungimas neaktyvus</p></td>
+<td class=3D"confluenceTd"><p>Google Chrome Version 102.0.5005.61</p></td>
+<td class=3D"confluenceTd"><p><strong><span style=3D"color: rgb(255,86,48);=
+">FAIL</span></strong></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>3</p></td>
+<td class=3D"confluenceTd"><p>ATIDAROM IVEDIMO FORMA</p></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>paspaudus pradek taupyti mygtuka man atsidary=
+s forma</p></td>
+<td class=3D"confluenceTd"><p>matome pajamu ivedimo forma</p></td>
+<td class=3D"confluenceTd"><p>Google Chrome Version 102.0.5005.61</p></td>
+<td class=3D"confluenceTd"><p><strong><span style=3D"color: rgb(54,179,126)=
+;">PASS</span></strong></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>4</p></td>
+<td class=3D"confluenceTd"><p>Vizuali formos ap=C5=BEi=C5=ABra</p></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>Nematome pastebim=C5=B3 klaid=C5=B3</p></td>
+<td class=3D"confluenceTd"><p>Pajam=C5=B3 ir i=C5=A1laid=C5=B3 formos dat=
+=C5=B3 default nevienodo formato </p></td>
+<td class=3D"confluenceTd"><p>Google Chrome Version 102.0.5005.61</p></td>
+<td class=3D"confluenceTd"><p><strong><span style=3D"color: rgb(255,86,48);=
+">FAIL</span></strong></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>5</p></td>
+<td class=3D"confluenceTd"><p>=C4=AEvesti teigiam=C4=85 skai=C4=8Di=C5=B3</=
+p></td>
+<td class=3D"confluenceTd"><p>22</p></td>
+<td class=3D"confluenceTd"><p>Leid=C5=BEia tai padaryti</p></td>
+<td class=3D"confluenceTd"><p>Leid=C5=BEia tai padaryti</p></td>
+<td class=3D"confluenceTd"><p>Google Chrome Version 102.0.5005.61</p></td>
+<td class=3D"confluenceTd"><p><strong><span style=3D"color: rgb(54,179,126)=
+;">PASS</span></strong></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>6</p></td>
+<td class=3D"confluenceTd"><p>Pasirinkti dat=C4=85 i=C5=A1 kalendoriaus</p>=
+</td>
+<td class=3D"confluenceTd"><p>14/04/2022</p></td>
+<td class=3D"confluenceTd"><p>Leid=C5=BEia tai padaryti</p></td>
+<td class=3D"confluenceTd"><p>Leid=C5=BEia tai padaryti</p></td>
+<td class=3D"confluenceTd"><p>Google Chrome Version 102.0.5005.61</p></td>
+<td class=3D"confluenceTd"><p><strong><span style=3D"color: rgb(54,179,126)=
+;">PASS</span></strong></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>7</p></td>
+<td class=3D"confluenceTd"><p>=C4=AEvesti pajam=C5=B3 pavadinim=C4=85 </p><=
+/td>
+<td class=3D"confluenceTd"><p>aha</p></td>
+<td class=3D"confluenceTd"><p>Leid=C5=BEia tai padaryti</p></td>
+<td class=3D"confluenceTd"><p>Leid=C5=BEia tai padaryti</p></td>
+<td class=3D"confluenceTd"><p>Google Chrome Version 102.0.5005.61</p></td>
+<td class=3D"confluenceTd"><p><strong><span style=3D"color: rgb(54,179,126)=
+;">PASS</span></strong></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>8 </p></td>
+<td class=3D"confluenceTd"><p>Paspaud=C5=BEiame mygtuk=C4=85 =E2=80=9Ci=C5=
+=A1saugoti=E2=80=9D</p></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>Duomenys i=C5=A1sisaugo</p></td>
+<td class=3D"confluenceTd"><p>Duomenys nei=C5=A1sisaugo</p></td>
+<td class=3D"confluenceTd"><p>Google Chrome Version 102.0.5005.61</p></td>
+<td class=3D"confluenceTd"><p><strong><span style=3D"color: rgb(255,86,48);=
+">FAIL</span></strong></p></td>
+<td class=3D"confluenceTd"><p>Nei=C5=A1sisaugo pavadinimas</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>9</p></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>Po mygtuko =E2=80=9Ci=C5=A1saugoti=E2=80=9D p=
+aspaudimo visi laukeliai =E2=80=9Cnusiresetins=E2=80=9D</p></td>
+<td class=3D"confluenceTd"><p>Mano =C4=AFvesti duomenys pasiliko laukeliuos=
+e</p></td>
+<td class=3D"confluenceTd"><p>Google Chrome Version 102.0.5005.61</p></td>
+<td class=3D"confluenceTd"><p><strong><span style=3D"color: rgb(255,86,48);=
+">FAIL</span></strong></p></td>
+<td class=3D"confluenceTd"><p>Like pavadinimas ir data</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>10</p></td>
+<td class=3D"confluenceTd"><p>=C4=AEvesti teigiam=C4=85 skai=C4=8Di=C5=B3</=
+p></td>
+<td class=3D"confluenceTd"><p>1015</p></td>
+<td class=3D"confluenceTd"><p>Leid=C5=BEia tai padaryti</p></td>
+<td class=3D"confluenceTd"><p>Leid=C5=BEia tai padaryti</p></td>
+<td class=3D"confluenceTd"><p>Google Chrome Version 102.0.5005.61</p></td>
+<td class=3D"confluenceTd"><p><strong><span style=3D"color: rgb(54,179,126)=
+;">PASS</span></strong></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>11</p></td>
+<td class=3D"confluenceTd"><p>Pasirinkti dat=C4=85 i=C5=A1 kalendoriaus</p>=
+</td>
+<td class=3D"confluenceTd"><p>16/05/2055</p></td>
+<td class=3D"confluenceTd"><p>Neleid=C5=BEia to padaryti</p></td>
+<td class=3D"confluenceTd"><p>Leid=C5=BEia tai padaryti</p></td>
+<td class=3D"confluenceTd"><p>Google Chrome Version 102.0.5005.61</p></td>
+<td class=3D"confluenceTd"><p><strong><span style=3D"color: rgb(255,86,48);=
+">FAIL</span></strong></p></td>
+<td class=3D"confluenceTd"><p>Data ateityje</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>12</p></td>
+<td class=3D"confluenceTd"><p>=C4=AEvesti pajam=C5=B3 pavadinim=C4=85 </p><=
+/td>
+<td class=3D"confluenceTd"><p>atlyginimas</p></td>
+<td class=3D"confluenceTd"><p>Leid=C5=BEia tai padaryti</p></td>
+<td class=3D"confluenceTd"><p>Leid=C5=BEia tai padaryti</p></td>
+<td class=3D"confluenceTd"><p>Google Chrome Version 102.0.5005.61</p></td>
+<td class=3D"confluenceTd"><p><strong><span style=3D"color: rgb(54,179,126)=
+;">PASS</span></strong></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>13</p></td>
+<td class=3D"confluenceTd"><p>Paspaud=C5=BEiame mygtuk=C4=85 =E2=80=9Ci=C5=
+=A1saugoti=E2=80=9D</p></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>Duomenys i=C5=A1sisaugo</p></td>
+<td class=3D"confluenceTd"><p>Duomenys nei=C5=A1sisaugo</p></td>
+<td class=3D"confluenceTd"><p>Google Chrome Version 102.0.5005.61</p></td>
+<td class=3D"confluenceTd"><p><strong><span style=3D"color: rgb(255,86,48);=
+">FAIL</span></strong></p></td>
+<td class=3D"confluenceTd"><p>Nei=C5=A1sisaugo pavadinimas</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>14</p></td>
+<td class=3D"confluenceTd"><p>=C4=AEvesti neigiam=C4=85 skai=C4=8Di=C5=B3</=
+p></td>
+<td class=3D"confluenceTd"><p>-1</p></td>
+<td class=3D"confluenceTd"><p>Neleid=C5=BEia to padaryti</p></td>
+<td class=3D"confluenceTd"><p>Neleid=C5=BEia to padaryti</p></td>
+<td class=3D"confluenceTd"><p>Google Chrome Version 102.0.5005.61</p></td>
+<td class=3D"confluenceTd"><p><strong><span style=3D"color: rgb(54,179,126)=
+;">PASS</span></strong></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>15</p></td>
+<td class=3D"confluenceTd"><p>=C4=AEvesti didel=C4=AF skai=C4=8Di=C5=B3</p>=
+</td>
+<td class=3D"confluenceTd"><p>100000000000000000000000000000000000000</p></=
+td>
+<td class=3D"confluenceTd"><p>Neleid=C5=BEia to padaryti</p></td>
+<td class=3D"confluenceTd"><p>Leid=C5=BEia tai padaryti</p></td>
+<td class=3D"confluenceTd"><p>Google Chrome Version 102.0.5005.61</p></td>
+<td class=3D"confluenceTd"><p><strong><span style=3D"color: rgb(255,86,48);=
+">FAIL</span></strong></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>16</p></td>
+<td class=3D"confluenceTd"><p>=C4=AEvesti pajam=C5=B3 pavadinim=C4=85 </p><=
+/td>
+<td class=3D"confluenceTd"><p>.</p></td>
+<td class=3D"confluenceTd"><p>Neleid=C5=BEia to padaryti</p></td>
+<td class=3D"confluenceTd"><p>Leid=C5=BEia tai padaryti</p></td>
+<td class=3D"confluenceTd"><p>Google Chrome Version 102.0.5005.61</p></td>
+<td class=3D"confluenceTd"><p><strong><span style=3D"color: rgb(255,86,48);=
+">FAIL</span></strong></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>17</p></td>
+<td class=3D"confluenceTd"><p>=C4=AEvesti pajam=C5=B3 pavadinim=C4=85 </p><=
+/td>
+<td class=3D"confluenceTd"><p>=C4=AF</p></td>
+<td class=3D"confluenceTd"><p>Neleid=C5=BEia to padaryti</p></td>
+<td class=3D"confluenceTd"><p>Leid=C5=BEia tai padaryti</p></td>
+<td class=3D"confluenceTd"><p>Google Chrome Version 102.0.5005.61</p></td>
+<td class=3D"confluenceTd"><p><strong><span style=3D"color: rgb(255,86,48);=
+">FAIL</span></strong></p></td>
+<td class=3D"confluenceTd"><p>Leid=C5=BEia i=C5=A1saugoti Lietuvi=C5=A1k=C4=
+=85 raid=C4=99</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>18</p></td>
+<td class=3D"confluenceTd"><p>=C4=AEvesti pajam=C5=B3 pavadinim=C4=85 </p><=
+/td>
+<td class=3D"confluenceTd"><p>Tetervinas</p></td>
+<td class=3D"confluenceTd"><p>Neleid=C5=BEia to padaryti</p></td>
+<td class=3D"confluenceTd"><p>Leid=C5=BEia tai padaryti</p></td>
+<td class=3D"confluenceTd"><p>Google Chrome Version 102.0.5005.61</p></td>
+<td class=3D"confluenceTd"><p><strong><span style=3D"color: rgb(255,86,48);=
+">FAIL</span></strong></p></td>
+<td class=3D"confluenceTd"><p>Leid=C5=BEia i=C5=A1saugoti su did=C5=BEi=C4=
+=85ja raide</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>19</p></td>
+<td class=3D"confluenceTd"><p>=C4=AEvesti simbol=C4=AF =C4=AF datos laukel=
+=C4=AF</p></td>
+<td class=3D"confluenceTd"><p>.</p></td>
+<td class=3D"confluenceTd"><p>Neleid=C5=BEia to padaryti</p></td>
+<td class=3D"confluenceTd"><p>Neleid=C5=BEia to padaryti</p></td>
+<td class=3D"confluenceTd"><p>Google Chrome Version 102.0.5005.61</p></td>
+<td class=3D"confluenceTd"><p><strong><span style=3D"color: rgb(54,179,126)=
+;">PASS</span></strong></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>20</p></td>
+<td class=3D"confluenceTd"><p>=C4=AEvesti raid=C4=99 =C4=AF datos laukel=C4=
+=AF</p></td>
+<td class=3D"confluenceTd"><p>O</p></td>
+<td class=3D"confluenceTd"><p>Neleid=C5=BEia to padaryti</p></td>
+<td class=3D"confluenceTd"><p>Neleid=C5=BEia to padaryti</p></td>
+<td class=3D"confluenceTd"><p>Google Chrome Version 102.0.5005.61</p></td>
+<td class=3D"confluenceTd"><p><strong><span style=3D"color: rgb(54,179,126)=
+;">PASS</span></strong></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_30_564027161.1653657729085--

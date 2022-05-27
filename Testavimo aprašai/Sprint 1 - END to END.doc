@@ -1,0 +1,451 @@
+Date: Fri, 27 May 2022 13:17:30 +0000 (UTC)
+Message-ID: <461212806.25.1653657450658@66191cdd1d76>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_24_1957451158.1653657450658"
+
+------=_Part_24_1957451158.1653657450658
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Sprint 1 - END to END</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Sprint 1 - END to END</h1>
+    <div class=3D"Section1">
+        <p>=C5=BEi=C5=ABra</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"3db173b9-d3c5-4a80-a230-42d=
+b8ededae5" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 190.0px;">
+<col style=3D"width: 190.0px;">
+<col style=3D"width: 190.0px;">
+<col style=3D"width: 190.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p style=3D"text-align: center;"><strong>Apra=C5=
+=A1ymas</strong></p></th>
+<th class=3D"confluenceTh"><p style=3D"text-align: center;"><strong>Testavi=
+mo numeris</strong></p></th>
+<th class=3D"confluenceTh"><p style=3D"text-align: center;"><strong>Autoriu=
+s</strong></p></th>
+<th class=3D"confluenceTh"><p style=3D"text-align: center;"><strong>Prad=C5=
+=BEia/Pabaiga</strong></p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>End to end sprint 1</p></td>
+<td class=3D"confluenceTd"><p>00001</p></td>
+<td class=3D"confluenceTd"><p>Jolanta</p></td>
+<td class=3D"confluenceTd"><p>2022.05.10 20:09</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"#b3bac5" class=3D"confluenceTd"><p></p></td>
+<td data-highlight-colour=3D"#b3bac5" class=3D"confluenceTd"><p></p></td>
+<td data-highlight-colour=3D"#b3bac5" class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>2022.05</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-layout=3D"full-width" data-local-id=3D"2403c00f-8ea9-4b26-9f97-=
+32a4a47a9104" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 207.0px;">
+<col style=3D"width: 212.0px;">
+<col style=3D"width: 118.0px;">
+<col style=3D"width: 201.0px;">
+<col style=3D"width: 225.0px;">
+<col style=3D"width: 159.0px;">
+<col style=3D"width: 159.0px;">
+<col style=3D"width: 159.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p style=3D"text-align: center;"><strong>Nr</str=
+ong></p></th>
+<th class=3D"confluenceTh"><p style=3D"text-align: center;"><strong>Veiksma=
+s</strong></p></th>
+<th class=3D"confluenceTh"><p style=3D"text-align: center;"><strong>=C4=AEv=
+estis</strong></p></th>
+<th class=3D"confluenceTh"><p style=3D"text-align: center;"><strong>Tik=C4=
+=97tinas rezultatas</strong></p></th>
+<th class=3D"confluenceTh"><p style=3D"text-align: center;"><strong>Gautas =
+rezultatas</strong></p></th>
+<th class=3D"confluenceTh"><p style=3D"text-align: center;"><strong>Program=
+os</strong></p></th>
+<th class=3D"confluenceTh"><p style=3D"text-align: center;"><strong>Rezulta=
+tas</strong></p></th>
+<th class=3D"confluenceTh"><p style=3D"text-align: center;"><strong>Komenta=
+ras</strong></p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>1</p></td>
+<td class=3D"confluenceTd"><p>vizuali svetain=C4=97s ap=C5=BEi=C5=ABra/ </p=
+></td>
+<td class=3D"confluenceTd"><p>-</p></td>
+<td class=3D"confluenceTd"><p>svetain=C4=97 atitiks projekto vizualizacij=
+=C4=85</p></td>
+<td class=3D"confluenceTd"><p>Index. Tarp =E2=80=9CPRAD=C4=96K TAUPYTI=E2=
+=80=9D ir Footer - n=C4=97ra paveiksliuk=C5=B3, numatyt=C5=B3 projekto vizu=
+alizacijoje</p></td>
+<td class=3D"confluenceTd"><p>Google Chrome version 101.0.4951.54 (Official=
+ Build) (64-bit)</p></td>
+<td class=3D"confluenceTd"><p style=3D"text-align: center;"><strong><span s=
+tyle=3D"color: rgb(76,154,255);">IMPROVEMENT</span></strong></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>2</p></td>
+<td class=3D"confluenceTd"><p>vizuali svetain=C4=97s ap=C5=BEi=C5=ABra / </=
+p></td>
+<td class=3D"confluenceTd"><p>-</p></td>
+<td class=3D"confluenceTd"><p>svetain=C4=97 atitiks projekto vizualizacij=
+=C4=85</p></td>
+<td class=3D"confluenceTd"><p>Index. Po =E2=80=9Cprad=C4=97k taupyti=E2=80=
+=9D neturi b=C5=ABti pabraukimo</p></td>
+<td class=3D"confluenceTd"><p>Google Chrome version 101.0.4951.54 (Official=
+ Build) (64-bit)</p></td>
+<td class=3D"confluenceTd"><p style=3D"text-align: center;"><strong><span s=
+tyle=3D"color: rgb(76,154,255);">IMPROVEMENT</span></strong></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>3</p></td>
+<td class=3D"confluenceTd"><p>vizuali svetain=C4=97s ap=C5=BEi=C5=ABra</p><=
+/td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>svetain=C4=97 atitiks projekto vizualizacij=
+=C4=85</p></td>
+<td class=3D"confluenceTd"><p>Index. Footer =E2=80=9Ckaip naudotis=E2=80=9D=
+ n=C4=97ra klaustuko</p></td>
+<td class=3D"confluenceTd"><p>Google Chrome version 101.0.4951.54 (Official=
+ Build) (64-bit)</p></td>
+<td class=3D"confluenceTd"><p style=3D"text-align: center;"><strong><span s=
+tyle=3D"color: rgb(76,154,255);">IMPROVEMENT</span></strong></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>4</p></td>
+<td class=3D"confluenceTd"><p>vizuali svetain=C4=97s ap=C5=BEi=C5=ABra</p><=
+/td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>svetain=C4=97 atitiks projekto vizualizacij=
+=C4=85</p></td>
+<td class=3D"confluenceTd"><p>Login Page. Tarp =E2=80=9CPRAD=C4=96K TAUPYTI=
+=E2=80=9D ir Footer - n=C4=97ra paveiksliuk=C5=B3, numatyt=C5=B3 projekto v=
+izualizacijoje</p></td>
+<td class=3D"confluenceTd"><p>Google Chrome version 101.0.4951.54 (Official=
+ Build) (64-bit)</p></td>
+<td class=3D"confluenceTd"><p style=3D"text-align: center;"><strong><span s=
+tyle=3D"color: rgb(76,154,255);">IMPROVEMENT</span></strong></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>5</p></td>
+<td class=3D"confluenceTd"><p>vizuali svetain=C4=97s ap=C5=BEi=C5=ABra</p><=
+/td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>svetain=C4=97 atitiks projekto vizualizacij=
+=C4=85</p></td>
+<td class=3D"confluenceTd"><p>Login Page. N=C4=97ra prisjungimo formos</p><=
+/td>
+<td class=3D"confluenceTd"><p>Google Chrome version 101.0.4951.54 (Official=
+ Build) (64-bit)</p></td>
+<td class=3D"confluenceTd"><p><strong><span style=3D"color: rgb(255,86,48);=
+">FAILED</span></strong></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>6</p></td>
+<td class=3D"confluenceTd"><p>vizuali svetain=C4=97s ap=C5=BEi=C5=ABra</p><=
+/td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>svetain=C4=97 atitiks projekto vizualizacij=
+=C4=85</p></td>
+<td class=3D"confluenceTd"><p>Registration. Tarp =E2=80=9CPRAD=C4=96K TAUPY=
+TI=E2=80=9D ir Footer - n=C4=97ra paveiksliuk=C5=B3, numatyt=C5=B3 projekto=
+ vizualizacijoje</p></td>
+<td class=3D"confluenceTd"><p>Google Chrome version 101.0.4951.54 (Official=
+ Build) (64-bit)</p></td>
+<td class=3D"confluenceTd"><p style=3D"text-align: center;"><strong><span s=
+tyle=3D"color: rgb(76,154,255);">IMPROVEMENT</span></strong></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>7</p></td>
+<td class=3D"confluenceTd"><p>vizuali svetain=C4=97s ap=C5=BEi=C5=ABra</p><=
+/td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>Registracijos forma tur=C4=97t=C5=B3 sudaryti=
+ du laukelius slapta=C5=BEod=C5=BEiui =C4=AFra=C5=A1yti</p></td>
+<td class=3D"confluenceTd"><p>Registration. Registruojantis suvesti slapta=
+=C5=BEodiui yra tik vienas laukelis</p></td>
+<td class=3D"confluenceTd"><p>Google Chrome version 101.0.4951.54 (Official=
+ Build) (64-bit)</p></td>
+<td class=3D"confluenceTd"><p><strong><span style=3D"color: rgb(255,86,48);=
+">FAILED</span></strong></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>8</p></td>
+<td class=3D"confluenceTd"><p>vizuali svetain=C4=97s ap=C5=BEi=C5=ABra</p><=
+/td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>svetain=C4=97 atitiks projekto vizualizacij=
+=C4=85</p></td>
+<td class=3D"confluenceTd"><p>Registration. Registruotis forma ne=C4=AFd=C4=
+=97ta =C4=AF r=C4=97mel=C4=AF</p></td>
+<td class=3D"confluenceTd"><p>Google Chrome version 101.0.4951.54 (Official=
+ Build) (64-bit)</p></td>
+<td class=3D"confluenceTd"><p style=3D"text-align: center;"><strong><span s=
+tyle=3D"color: rgb(76,154,255);">IMPROVEMENT</span></strong></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>9</p></td>
+<td class=3D"confluenceTd"><p>vizuali svetain=C4=97s ap=C5=BEi=C5=ABra</p><=
+/td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>svetain=C4=97 atitiks projekto vizualizacij=
+=C4=85</p></td>
+<td class=3D"confluenceTd"><p>=E2=80=9CPrisjungti=E2=80=9D mygtukas turi b=
+=C5=ABti ekrano de=C5=A1in=C4=97je vir=C5=A1utiniame kampe, o yra vir=C5=A1=
+ registracijos formos. Vir=C5=A1 registracijos formos yra mygtukas =E2=80=
+=9CRegistruotis=E2=80=9D, kurio pagal vizualizacij=C4=85 visai neturi b=C5=
+=ABti.</p></td>
+<td class=3D"confluenceTd"><p>Google Chrome version 101.0.4951.54 (Official=
+ Build) (64-bit)</p></td>
+<td class=3D"confluenceTd"><p style=3D"text-align: center;"><strong><span s=
+tyle=3D"color: rgb(76,154,255);">IMPROVEMENT</span></strong></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_24_1957451158.1653657450658--
